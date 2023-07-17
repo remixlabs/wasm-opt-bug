@@ -1,0 +1,9 @@
+[workspace]
+
+members = ["workspace-package", "workspace-package-disabled"]
+exclude = ["solo-package", "solo-package-disabled"]
+
+# Setting this also doesn't work
+#[workspace.metadata]
+#wasm-opt = false
+
